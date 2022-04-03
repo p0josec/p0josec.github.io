@@ -114,7 +114,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'nsplankton', // 导航栏右侧生成Github链接
+    repo: 'p0josec', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -152,14 +152,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: 'NSplankton', // 必需
-      link: 'https://github.com/nsplankton', // 可选的
+      name: 'p0jo', // 必需
+      link: 'https://github.com/p0josec', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'NSPlankton',
+      avatar: '/img/avatar.jpg',
+      name: 'P0joSec',
       slogan: '一个技术至上的理想主义者。',
     },
 
@@ -170,12 +170,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:nsplankton@gmail.com',
+          link: 'mailto:p0josec@gmail.com',
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/nsplankton',
+          link: 'https://github.com/p0josec',
         },
         {
           iconClass: 'icon-erji',
@@ -226,13 +226,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     },
     
-    // 百度自动推送
-    'vuepress-plugin-baidu-autopush': {},
+    // // 百度自动推送
+    // 'vuepress-plugin-baidu-autopush': {},
 
-    // 百度统计
-    'vuepress-plugin-baidu-tongji': {
-      hm: baiduCode,
-    },
+    // // 百度统计
+    // 'vuepress-plugin-baidu-tongji': {
+    //   hm: baiduCode,
+    // },
 
     // 全文搜索
     'fulltext-search': {},
@@ -296,11 +296,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     'vuepress-plugin-comment': {
       choosen: 'gitalk',
       options: {
-        clientID: '057702a0b3720d70785f',
-        clientSecret: 'a888412a51283fa13f2496aac89bb76cc2c92103',
-        repo: 'blog-nsplankton-comments', // GitHub 仓库
-        owner: 'nsplankton', // GitHub仓库所有者
-        admin: ['nsplankton'], // 对仓库有写权限的人
+        clientID: 'ce8d24a63bb0c5701685',
+        clientSecret: 'e6b33c9d3e857f675b3bb34a1c491b323325b49d',
+        repo: 'WikiTalk', // GitHub 仓库
+        owner: 'p0josec', // GitHub仓库所有者
+        admin: ['p0josec'], // 对仓库有写权限的人
         distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
