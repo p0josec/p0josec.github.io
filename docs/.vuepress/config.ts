@@ -145,7 +145,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     blogger: {
       avatar: '/img/avatar.jpg',
       name: 'p0jo',
-      slogan: '一个技术至上的理想主义者。',
+      slogan: '欲变世界，先变自己。',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
