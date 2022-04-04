@@ -20,6 +20,7 @@
 const htmlModule = {
   homeSidebarB:
     `<div style="padding: 0.95rem">
+    <br>
     <p style="
       color: var(--textColor);
       opacity: 0.9;
@@ -29,9 +30,12 @@ const htmlModule = {
     ">公众号</p>
     <img src="/img/wechat.png"  style="width:100%;" />
     <p>
+
     公众号同步建设中~
     <br><br>
-      关注公众号，回复 [<b>学习资料</b>] ，暂时不能获取学习资源，嘿嘿~
+      关注公众号，回复 [<b>学习资料</b>] 
+      <br>
+      暂时不能获取学习资源，嘿嘿~
     </p>
     </div>`,
   // `<!-- 纵向自适应 -->
