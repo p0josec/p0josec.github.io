@@ -28,7 +28,7 @@ const htmlModule = {
       font-weight: bold;
       margin: 0 0 8px 0;
     ">公众号</p>
-    <img src="/img/wechat.png"  style="width:100%;" />
+    <img src="https://wiki-1251603812.cos.ap-shanghai.myqcloud.com/images/wechat.png" style="width:100%"/>
     <p>
 
     公众号同步建设中~
