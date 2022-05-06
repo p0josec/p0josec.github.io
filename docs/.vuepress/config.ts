@@ -77,7 +77,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //   ],
       // },
       { text: '关于', link: '/about/' },
-      { text: '友情链接', link: '/friends/' },
+      { text: '站点导航', link: '/navigation/' },
       // {
       //   text: '收藏',
       //   link: '/pages/beb6c0bd8a66cea6/',
@@ -88,12 +88,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //   ],
       // },
       {
-        text: '索引',
-        link: '/archives/',
+        text: '其他',
+        link: '/others/',
         items: [
           { text: '分类', link: '/categories/' },
           { text: '标签', link: '/tags/' },
           { text: '归档', link: '/archives/' },
+          { text: '博客搭建', link: '/others/blog/'}
         ],
       },
     ],
