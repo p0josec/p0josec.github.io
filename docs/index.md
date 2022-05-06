@@ -6,27 +6,35 @@ tagline: 欲买桂花同载酒，终不似、少年游。
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+pageClass: vdoing-index-class
 
 # 注意 ： 新建文件夹时不能带空格 否则无法归档到目录中
-features: # 可选的
-  - title: 开发
-    details: Vue、Spring相关前后端开发技术
-    link: /dev/
-    # imgUrl: /img/web.png
-  - title: 安全
-    details: 安全技术文档、教程、技巧、总结等文章
-    link: /sec/
-    # imgUrl: /img/java.png
-  - title: 生活
-    details: 随便写写，记录生活
-    link: /life/
-    # imgUrl: /img/sec.png
+# features: # 可选的
+#   - title: 开发
+#     details: Vue、Spring相关前后端开发技术
+#     link: /dev/
+#     # imgUrl: /img/web.png
+#   - title: 安全
+#     details: 安全技术文档、教程、技巧、总结等文章
+#     link: /sec/
+#     # imgUrl: /img/java.png
+#   - title: 生活
+#     details: 随便写写，记录生活
+#     link: /life/
+#     # imgUrl: /img/sec.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
-# postList: detailed
+postList: detailed
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 ---
 
+
+
+<ClientOnly>
+  <WebInfo />
+  <IndexBigImg />
+  <!-- <Fantasy /> -->
+</ClientOnly>
 
 <!-- 小熊猫 -->
 <!-- <img src="
