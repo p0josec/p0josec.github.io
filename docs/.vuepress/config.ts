@@ -214,10 +214,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // // 百度自动推送
     // 'vuepress-plugin-baidu-autopush': {},
 
-    // // 百度统计
-    // 'vuepress-plugin-baidu-tongji': {
-    //   hm: baiduCode,
-    // },
+    // 百度统计
+    'vuepress-plugin-baidu-tongji': {
+      hm: baiduCode,
+    },
 
     // 全文搜索
     'fulltext-search': {},
