@@ -30,12 +30,8 @@ const htmlModule = {
     ">公众号</p>
     <img src="https://wiki-1251603812.cos.ap-shanghai.myqcloud.com/images/wechat.png" style="width:100%"/>
     <p>
-
-    公众号同步建设中~
-    <br><br>
-      关注公众号，回复 [<b>学习资料</b>] 
-      <br>
-      暂时不能获取学习资源，嘿嘿~
+    <br>
+    公众号间歇性更新中，感谢关注～
     </p>
     </div>`,
   // `<!-- 纵向自适应 -->

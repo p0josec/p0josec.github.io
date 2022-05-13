@@ -20,6 +20,8 @@ const nav = [
         { text: '博客Emoji', link: '/more/blog/emoji/'}
       ],
     },
+
+    {text: 'Travelling', link: 'https://travellings.link/' },
   ]
 
 export default nav
