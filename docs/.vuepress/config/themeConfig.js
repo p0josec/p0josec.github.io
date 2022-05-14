@@ -34,6 +34,17 @@ const themeConfig = {
     bubbleNum: 100,   // 气泡的个数，bubble 为 true 生效，默认 200 个
   },
 
+  // 私密文章配置
+privatePage: {
+  username: 'p0jo',    // 用户名
+  password: '123.bmk!',    // 密码
+  expire: 1000 * 60 * 60 * 24,   // 有效时间：毫秒(ms)。过期后访问私密文章重新输入用户名和密码。默认一天
+  loginPath: "/private/login/",    // 引用登录组件的 md 文章中 frontmatter 的 permalink。（必须），建议支持 /vdoing/login/，无默认值
+  loginKey: 'vdoing_login',    // 存储用户名信息的 key，默认是 vdoing_login。系统通过该 key 验证是否登录、是否过期。（请不要与任意文章中 frontmatter 的 title 冲突）
+  loginSession: false,     // 是否开启在文章页面关闭或刷新后，清除登录状态。这样再次访问任何私密文章，都需要重新验证登录，默认为 false（不开启）
+},
+
+
   // 站点配置（首页 & 文章页）
 blogInfo: {
   blogCreate: '2022-01-01', // 博客创建时间
