@@ -1,5 +1,5 @@
 const header = [
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: 'https://wiki-1251603812.cos.ap-shanghai.myqcloud.com/images/favicon.ico' }], //favicons，资源放在public文件夹
     [
       'meta',
       {
